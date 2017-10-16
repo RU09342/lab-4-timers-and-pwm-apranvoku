@@ -1,23 +1,5 @@
 //******************************************************************************
-//   MSP430F552x Demo
-//      PWM
-//
-//   Description: Every time you press the PWM button, increase the brightness of
-//                  the LED logarithmically. Once it reaches 100% brightness, it rolls
-//                  back to 0% brightness.
-//   ACLK = 32.768kHz, MCLK = SMCLK = default DCO~1MHz
-//
-//                MSP430
-//             -----------------
-//         /|\|                 |
-//          | |                 |
-//          --|RST              |
-//            |                 |
-//            |             P1.0|-->LED
-//
-//   Thai Nghiem (collaborate with Matthew R. and Ardit P.)
-//   Rowan University
-//   September 2017
+//   Ardit Pranvoku Collab with Thai Nghiem and Matt Rodriguez
 //   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
 //******************************************************************************
 #include <msp430.h>
